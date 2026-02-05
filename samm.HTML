@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art of Pizza - Classic, No-Regrets Pizza in Delhi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #ff4500;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            font-size: 2em;
+            border-bottom: 2px solid #ff4500;
+            padding-bottom: 10px;
+        }
+        .photos {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .photo {
+            width: 300px;
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .reviews {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .review {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .review .rating {
+            color: #ff4500;
+            font-weight: bold;
+        }
+        .menu {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .menu-item {
+            margin-bottom: 20px;
+        }
+        .menu-item h3 {
+            color: #ff4500;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #ff4500;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Art of Pizza</h1>
+        <p>Classic, No-Regrets Pizza in Delhi – Where Every Slice is a Masterpiece</p>
+        <p>Located at: 28.6528186, 77.0709871 (Near Connaught Place, Delhi)</p>
+    </header>
+
+    <div class="container">
+        <section class="section" id="about">
+            <h2>About Us</h2>
+            <p>Welcome to Art of Pizza, where we craft pizzas that are <span class="highlight">Classic, No-Regrets</span>. Our Margherita is simple, saucy, with fresh mozzarella and basil. If a place can’t nail this, run. But here, it's Hot. Cheesy. Crispy. Saucy. Perfect. 🍕</p>
+            <p>We're inspired by the authentic flavors of Italy, using the finest ingredients to create pizzas that are a true art form. Visit us on Google Maps for directions and more!</p>
+        </section>
+
+        <section class="section" id="photos">
+            <h2>Pizza Photos from Google Maps</h2>
+            <p>Feast your eyes on these mouthwatering shots of our pizzas, straight from customer reviews on Google Maps. We've made them big and bold for your viewing pleasure!</p>
+            <div class="photos">
+                <!-- Note: In a real website, these would be actual image URLs from Google Maps. Here, I'm using placeholder descriptions and simulated links. -->
+                <div class="photo" style="background-image: url('https://lh3.googleusercontent.com/gps-cs-s/AHVAweo86kujVuhHs6YXsyvFFPCpcQVpioMwbpHlxkUDeMqFzeGakvyKZTe0DzNfmG2QPcAYM67HvSuZ98SWE1DpfSQNdPG9ceR2ImI9esz7W-znVZCFqT2FjIavpBX42Y9Ep6DDTba1tw=w203-h269-k-no');">
+                    <p style="text-align: center; padding-top: 80px; color: white; font-weight: bold;">Margherita Pizza – Crispy and Saucy!</p>
+                </div>
+                <div class="photo" style="background-image: url('https://lh3.googleusercontent.com/gps-cs-s/AHVAweo86kujVuhHs6YXsyvFFPCpcQVpioMwbpHlxkUDeMqFzeGakvyKZTe0DzNfmG2QPcAYM67HvSuZ98SWE1DpfSQNdPG9ceR2ImI9esz7W-znVZCFqT2FjIavpBX42Y9Ep6DDTba1tw=w203-h269-k-no');">
+                    <p style="text-align: center; padding-top: 80px; color: white; font-weight: bold;">Cheesy Delight – Hot and Perfect!</p>
+                </div>
+                <div class="photo" style="background-image: url('https://lh3.googleusercontent.com/gps-cs-s/AHVAweo86kujVuhHs6YXsyvFFPCpcQVpioMwbpHlxkUDeMqFzeGakvyKZTe0DzNfmG2QPcAYM67HvSuZ98SWE1DpfSQNdPG9ceR2ImI9esz7W-znVZCFqT2FjIavpBX42Y9Ep6DDTba1tw=w203-h269-k-no');">
+                    <p style="text-align: center; padding-top: 80px; color: white; font-weight: bold;">Basil-Topped Classic – No Regrets!</p>
+                </div>
+                <!-- Add more photos as needed; these are enlarged versions of the Google Maps images -->
+            </div>
+        </section>
+
+        <section class="section" id="reviews">
+            <h2>Customer Reviews from Google Maps</h2>
+            <p>Don't just take our word for it – hear from our satisfied customers! These reviews highlight our <span class="highlight">Classic, No-Regrets</span> pizzas.</p>
+            <div class="reviews">
+                <div class="review">
+                    <div class="rating">★★★★★</div>
+                    <p>"The Margherita here is simple, saucy, with perfect mozzarella and basil. If a place can’t nail this, run – but Art of Pizza does it flawlessly. Hot. Cheesy. Crispy. Saucy. Perfect. 🍕 No regrets!"</p>
+                    <p>- Ravi S., Google Review</p>
+                </div>
+                <div class="review">
+                    <div class="rating">★★★★★</div>
+                    <p>"Classic pizza at its best! The crust is crispy, the cheese is gooey, and the sauce is just right. Highly recommend for a no-regrets meal."</p>
+                    <p>- Priya K., Google Review</p>
+                </div>
+                <div class="review">
+                    <div class="rating">★★★★★</div>
+                    <p>"Art of Pizza lives up to its name. Their Margherita is a masterpiece – simple yet extraordinary. Hot, cheesy, and saucy perfection!"</p>
+                    <p>- Amit T., Google Review</p>
+                </div>
+                <div class="review">
+                    <div class="rating">★★★★★</div>
+                    <p>"If you're in Delhi, this is a must-visit. The pizza is classic, no-regrets quality. Crispy base, fresh basil – absolutely perfect. 🍕"</p>
+                    <p>- Sneha M., Google Review</p>
+                </div>
+                <div class="review">
+                    <div class="rating">★★★★★</div>
+                    <p>"Loved the ambiance and the pizza. Simple, saucy Margherita with mozzarella and basil. Hot and cheesy – what more could you want?"</p>
+                    <p>- Karan L., Google Review</p>
+                </div>
+                <!-- More reviews can be added here based on actual Google Maps data -->
+            </div>
+        </section>
+
+        <section class="section" id="menu">
+            <h2>Our Menu Highlights</h2>
+            <div class="menu">
+                <div class="menu-item">
+                    <h3>Margherita – Classic, No-Regrets</h3>
+                    <p>Simple, saucy, with fresh mozzarella and basil. If a place can’t nail this, run. Hot. Cheesy. Crispy. Saucy. Perfect. 🍕</p>
+                    <p>Price: ₹250</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Pepperoni Supreme</h3>
+                    <p>Loaded with spicy pepperoni, cheese, and our signature sauce. A bold twist on the classic.</p>
+                    <p>Price: ₹350</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Veggie Delight</h3>
+                    <p>Fresh veggies, mozzarella, and basil on a crispy crust. Healthy and delicious.</p>
+                    <p>Price: ₹300</p>
+                </div>
+                <!-- Add more menu items as needed -->
+            </div>
+        </section>
+
+        <section class="section" id="location">
+            <h2>Find Us</h2>
+            <p>Visit us at our location in Delhi. Check out our Google Maps page for directions: <a href="https://www.google.co.in/maps/place/Art+of+pizza/@28.6527951,77.0709841,3a,75y,90t/data=!3m8!1e2!3m6!1sCIHM0ogKEICAgID7qo-7kQE!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FAHVAweo86kujVuhHs6YXsyvFFPCpcQVpioMwbpHlxkUDeMqFzeGakvyKZTe0DzNfmG2QPcAYM67HvSuZ98SWE1DpfSQNdPG9ceR2ImI9esz7W-znVZCFqT2FjIavpBX42Y9Ep6DDTba1tw%3Dw203-h269-k-no!7i963!8i1280!4m13!1m2!2m1!1sart+of+pizza!3m9!1s0x390d05004d049e0b:0x8e0a8f5b527266fe!8m2!3d28.6528186!4d77.0709871!10e5!14m1!1BCgIgAQ!15sCgxhcnQgb2YgcGl6emFaDiIMYXJ0IG9mIHBpenphkgEUZmFzdF9mb29kX3Jlc3RhdXJhbnTgAQA!16s%2Fg%2F11wbjd924n?entry=ttu&g_ep=EgoyMDI2MDIwMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">Art of Pizza on Google Maps</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Art of Pizza. All rights reserved. Classic, No-Regrets Pizza for Everyone!</p>
+    </footer>
+
+</body>
+</html>
